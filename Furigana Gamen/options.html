@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Furigana Gamen Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <h1>Furigana Gamen Options</h1>
+  <input type="checkbox" checked id="checkboxid">
+  <label for="checkboxid">Default Furigana Format</label>
+  <br><br>
+  <label for="colorid">Furigana Color:</label>
+  <input type="color" disabled id="colorid">
+  <br><br>
+  <label for="rangeid">Furigana Size:</label>
+  <input type="range" disabled id="rangeid" min="1" max="100" value="50">
+  <br><br>
+  <label for="kanjiid">Furigana Preview:</label>
+  <ruby id="kanjiid">漢字<rt id="furiganaid">かんじ</rt></ruby>
+  <br><br>
+  <h2>References</h2>
+  <p>Furigana Gamen conforms to all licenses.</p>
+  <p><a href="https://kanjiapi.dev/">kanjiapi.dev</a> (<a href="http://www.edrdg.org/edrdg/licence.html">license</a>)
+  </p>
+  <p><a href="https://markjs.io/">mark.js</a> (<a
+      href="https://raw.githubusercontent.com/julmot/mark.js/master/LICENSE">license</a>)</p>
+  <p><a href="https://flopdesign.booth.pm/items/2747965">ベストテンFONT</a></p>
+</body>
+<script src="options.js"></script>
+
+</html>

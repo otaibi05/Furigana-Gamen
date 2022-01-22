@@ -1,0 +1,51 @@
+{
+  "name": "Furigana Gamen",
+  "description": "Displays furigana on kanji characters.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery.js",
+        "mark_modified.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/furigana_gamen_icon16.png",
+      "32": "/images/furigana_gamen_icon32.png",
+      "48": "/images/furigana_gamen_icon48.png",
+      "128": "/images/furigana_gamen_icon128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/furigana_gamen_icon16.png",
+    "32": "/images/furigana_gamen_icon32.png",
+    "48": "/images/furigana_gamen_icon48.png",
+    "128": "/images/furigana_gamen_icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "kanjiapi_words.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "options_page": "options.html"
+}
