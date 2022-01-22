@@ -30,7 +30,7 @@ Furigana Gamen was actually much faster when I used innerHTML to search and repl
   
 Searching and replacing specific characters becomes complex when you also have to add HTML elements to the document at those specific characters' positions without using innerHTML. It is not the same as creating a website where you can manually add them. So, I decided to modify a JavaScript highlighter library that already went through a lot of testing on a lot of different websites.
 
-HTML, CSS, JavaScript, JSON, and jQuery are used for this Google Chrome extension.
+HTML, CSS, JavaScript, JSON, kanjiapi, jQuery, and a modified mark.js are used for this Google Chrome extension.
 
 **Troubleshooting**
 
