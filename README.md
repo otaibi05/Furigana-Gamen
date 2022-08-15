@@ -36,4 +36,4 @@ Furigana Gamen conforms to all licenses.
 
 **Disclaimer**
 
-This project was experimental and will not be released on the Chrome Web Store. It was completed in around a week and it is somewhat computationally intensive. Do not use the Google Chrome extension with an old computer.
+This project was experimental and will not be released on the Chrome Web Store. It took approximately one week to complete and it is somewhat computationally intensive. Do not use the Google Chrome extension with an old computer.
