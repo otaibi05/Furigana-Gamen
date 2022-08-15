@@ -36,4 +36,4 @@ Furigana Gamen conforms to all licenses.
 
 **Disclaimer**
 
-This project was experimental and will not be released on the Chrome Web Store. Do not use the Google Chrome extension with an old computer. The developer is not liable for any damages the Google Chrome extension may cause. The code in this repository is free and open-source while conforming to the licenses in references.
+This project was experimental and will not be released on the Chrome Web Store. It was completed in around a week and it is somewhat computationally intensive. Do not use the Google Chrome extension with an old computer.
